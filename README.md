@@ -1,7 +1,7 @@
 # 📊 Sales Data Analysis Project
 
 ## 📌 Overview
-This project analyzes retail sales data using Python.
+This project analyzes retail sales data using Python and generates insights using data visualization.
 
 ## 🛠 Tools Used
 - Python
@@ -10,22 +10,23 @@ This project analyzes retail sales data using Python.
 
 ## 📂 Project Structure
 - data/ → dataset (sales.csv)
-- src/ → analysis code (analysis.py)
+- src/ → Python analysis code (analysis.py)
 - images/ → generated charts
 
 ## 📈 Features
-- Data cleaning
-- Sales analysis by category
-- Visualization using bar charts
+- Data cleaning (handling missing values)
+- Sales analysis by Sub-Category
+- Sales analysis by Region
+- Sales analysis by Category
+- Data visualization using bar charts
 
-## 📊 Sample Output
-![Sales Chart](images/top_sales.png)
+## 📊 Generated Outputs
+- Top Sub-Categories by Sales → `images/top_sales.png`
+- Sales by Region → `images/region_sales.png`
+- Sales by Category → `images/category_sales.png`
 
 ## 🚀 How to Run
+
 ```bash
 pip install pandas matplotlib
 python src/analysis.py
-```
-
-## 👨‍💻 Author
-Ali Hassan
